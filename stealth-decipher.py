@@ -39,7 +39,7 @@ def analyze_text(text):
 
 def main():
     # User input for the .pcap file
-    pcap_file = input("Enter the path to the .pcap file: ")
+    pcap_file = input("/workspaces/Laboratorios_cripto/parte2.pcapng")
 
     # Extract data from the ICMP packets
     extracted_string = extract_icmp_data(pcap_file)
